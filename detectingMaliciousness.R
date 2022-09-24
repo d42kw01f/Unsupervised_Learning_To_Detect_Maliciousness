@@ -1,7 +1,7 @@
 #Generating the data set----
 
 #Import the data set into R Studio.
-dat <- read.csv("C:\\Users\\pdaks\\OneDrive\\Documents\\Education\\ECU\\Data_Analysis_and_Visualization\\Assignments\\Assignment_2\\MLDATASET_PartiallyCleaned.csv",
+dat <- read.csv("MLDATASET_PartiallyCleaned.csv",
                na.strings="", stringsAsFactors=TRUE)
 set.seed(10519381)
 #Randomly select 500 rows
