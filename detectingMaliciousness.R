@@ -3,7 +3,7 @@
 #Import the data set into R Studio.
 dat <- read.csv("MLDATASET_PartiallyCleaned.csv",
                na.strings="", stringsAsFactors=TRUE)
-set.seed(10519381)
+set.seed()
 #Randomly select 500 rows
 selected.rows <- sample(1:nrow(dat),size=500,replace=FALSE)
 #Your sub-sample of 500 observations and excluding the 1st and last column
